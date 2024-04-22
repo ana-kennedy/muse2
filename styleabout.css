@@ -1,0 +1,116 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: auto;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+@media all (max-width: 1231px) 
+{
+    .navbar {
+        font-size:1.5rem;
+        justify-content: space-between;
+align-items: center;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+b {
+text-align: center;
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+font-family: Arial, Helvetica;
+color: white;
+
+.navbar a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar li{
+    display:inline-block
+}
+}
+
+
+
+main {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside {
+    font-weight: bold;
+}
+
+
+
+
+
+.bottom {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    position:relative;
+    
+
+    
+}
+
+.socialmedia
+
+{
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+   
+}
+
+.globe
+{
+    display: block;
+    width: 7%;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+aside {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.museascii {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
