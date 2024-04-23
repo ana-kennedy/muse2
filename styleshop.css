@@ -11,6 +11,14 @@ body {
 
 }
 
+@media (max-width: 500px) {
+    .navbar {
+        max-width: 500px;
+    }
+}
+
+
+
 html {
     height: -webkit-fill-available;
 }

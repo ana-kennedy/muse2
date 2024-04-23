@@ -11,15 +11,20 @@ margin-right: auto;
 justify-content: center;
 flex:1;
 overflow: scroll;
-height: auto;
+height: auto; }
 
 html {
     height: -webkit-fill-available;
 }
 
-
-
+@media (max-width: 500px) {
+    .navbar {
+        max-width: 500px;
+    }
 }
+
+
+
 
 div {
     font-family: Arial, Helvetica, sans-serif;
