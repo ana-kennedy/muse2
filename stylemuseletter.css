@@ -1,7 +1,5 @@
 body {
     height: -webkit-fill-available;
-   display: flex;
-   flex-direction: column;
     background-color: black;
     color: white;
 font-family: Arial, Helvetica;
@@ -9,9 +7,9 @@ align-items: center;
 margin-left: auto;
 margin-right: auto;
 justify-content: center;
-flex:1;
-overflow: scroll;
-height: auto; }
+padding: 10px;
+height: auto;
+ }
 
 html {
     height: -webkit-fill-available;

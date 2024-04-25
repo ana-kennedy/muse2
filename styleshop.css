@@ -64,9 +64,15 @@ footer {
 }
 
 
+.items {
+    width:20%
+}
 
-img {
-    width: 20%;
+.shopheader {
+    width:20%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 }
 
 #page

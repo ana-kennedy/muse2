@@ -9,13 +9,9 @@
 
     <audio src="musedistantloop.wav"style=display:none; autoplay loop>
     </audio>
-
-   
-
-
-</head>
+  </head>
+  
 <body>
-
 
   <b>  
 
@@ -33,19 +29,15 @@
     </nav>
     </b> 
 
-<br><br<br><br><br>
-<c>
-    <h1>Artists</h1>
-    <h6>&copy;MUSE 2024</h6>
-</c>
 
-<br>
+<br><br><br><br><br><br>
 
-<div id="page">
-<img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.greluche.info%2Fgifs%2Fmusique%2Fclef-de-sol-verte-en-3D.gif&f=1&nofb=1&ipt=c6d5746709b7ee592b10413e2398ce0adcbcab45202a77ab2b22edee6e3ca762&ipo=images" alt="">
-</div>
 
-<br>
+<img class="artistheader" src="images/artistheader2.png">
+
+<br><br><br>
+
+<section class="artistsection">
 
 <a href="#" id="button1" class="button1">
 <script>
@@ -102,15 +94,32 @@ play2.addEventListener("click" , playMusic);
       </script>  
 <h2>Kai Aspen</h2>
 </a>
-<br>
 
-<img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-PCZ6BIntXW0%2FVCs6wdnkAJI%2FAAAAAAAAJxo%2F_RTqU5TCHzA%2Fs1600%2Fmusical-notes-animated.gif&f=1&nofb=1&ipt=70bcab2e93bfe45de8c7db3974173527c400163c08b42c405e480e7e3f41dcd9&ipo=images">
-<br><br>
-<c>
-<h1>Team</h1>
-<h6>&copy;MUSE 2024</h6>
-</c>
-<br>
+<a href="#" id="button8" class="button8">
+  <script>
+
+    let play8 = document.getElementById("button8")
+    function playMusic() {
+      let audio = new Audio("selectsvetlana.wav")
+      audio.play()
+    }
+    play8.addEventListener("click" , playMusic);
+    
+    </script>  
+  <h2>Svetlana</h2>
+</a>
+
+</section>
+
+
+
+<br><br><br><br><br>
+
+<img class="teamheader" src="images/teamheader.png">
+
+<br><br><br>
+
+<section class="teamsection">
 
 
 <a href="#" id="button5" class="button5">
@@ -141,9 +150,27 @@ play2.addEventListener("click" , playMusic);
   <h2>Eggfork</h2>
 </a>
 
+<a href="#" id="button7" class="button7">
+  <script>
+
+    let play7 = document.getElementById("button7")
+    function playMusic() {
+      let audio = new Audio("selectjoshmaison.wav")
+      audio.play()
+    }
+    play7.addEventListener("click" , playMusic);
+    
+    </script>  
+  <h2>Josh Maison</h2>
+</a>
+
+</section>
 
 
-<br><br><br>
+
+<br><br><br><br><br>
+<img class="handwritten" src="images/musehandwritten.png">
+<br><br>
 <a>
 <h6>"Muse is a bridge." </h6>
 </a>
@@ -262,8 +289,43 @@ play2.addEventListener("click" , playMusic);
   </div>
 </div>
 
+<div class="bg-modal7">
+  <div class="modal-content7">
+  <h2>Josh Maison</h2>
+  <h5>Age: 24</h5>
+  <h5>Location: Cleveland, OH</h5>
+  <h5>QA Lead</h5>
+  <a href="https://www.instagram.com/hijoshmaison/">
+    <h6>Instagram</h5>
+  </a>
+  <a href="https://twitter.com/hiJoshMaison">
+    <h6>X/Twitter</h5>
+  </a>
+  <h6>&copy;MUSE2024</h6>
+<div class="close7">
+  +
+</div>
+  </div>
+</div>
 
-
+<div class="bg-modal8">
+  <div class="modal-content8">
+  <h2>Svetlana</h2>
+  <h5>Age: 28</h5>
+  <h5>Location: Whitehorse, YK</h5>
+  <h5>DJ, Doomsday Prepper</h5>
+  <a href="">
+    <h6>Instagram</h5>
+  </a>
+  <a href="">
+    <h6>X/Twitter</h5>
+  </a>
+  <h6>&copy;MUSE2024</h6>
+<div class="close8">
+  +
+</div>
+  </div>
+</div>
 
 
 
@@ -312,6 +374,5 @@ play2.addEventListener("click" , playMusic);
 <link rel="stylesheet" href="styleroster.css">
 
 <script src="rosterscript.js"></script>
-
 
 </html>

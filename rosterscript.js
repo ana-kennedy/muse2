@@ -55,3 +55,22 @@ document.querySelector('.close6').addEventListener('click' , function(){
 document.querySelector('.bg-modal6').style.display = 'none' ;
 });
 
+
+document.getElementById('button7').addEventListener('click' , function() {
+    document.querySelector('.bg-modal7').style.display = 'flex';
+});
+
+
+document.querySelector('.close7').addEventListener('click' , function(){
+document.querySelector('.bg-modal7').style.display = 'none' ;
+});
+
+document.getElementById('button8').addEventListener('click' , function() {
+    document.querySelector('.bg-modal8').style.display = 'flex';
+});
+
+
+document.querySelector('.close8').addEventListener('click' , function(){
+document.querySelector('.bg-modal8').style.display = 'none' ;
+});
+
