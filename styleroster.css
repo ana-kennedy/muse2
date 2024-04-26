@@ -1,3 +1,5 @@
+
+
 body {
     margin:0;
     background-color: black;
@@ -6,13 +8,112 @@ font-family: Arial, Helvetica;
 height: auto;
 text-align: center;
 align-items: center;
-justify-content: center;
 margin-left: auto;
 margin-right: auto;
 padding: 3px;
 text-decoration: none;
     color: white;
 
+}
+
+header {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: black;
+    height: 20px;
+max-width: 600px;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+
+
+
+}
+
+@media (max-width:600px) {
+    header {
+display: none;
+
+    }
+    .dropdown {
+        display: block;
+    }
+}
+
+@media (min-width:601px) {
+    .dropdown {
+        display:none;
+    }
+}
+
+.dropdown {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.dropdown button {
+background-color: rgb(0, 0, 0);
+color: white;
+padding: 10px 15px;
+border: none;
+cursor:pointer;
+font-size: 25px;
+}
+
+.dropdown a{
+    display:block;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.dropdown .content {
+    display:none;
+    position:relative;
+    min-width: 100px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.dropdown:hover .content {
+    display:block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown:hover .button {
+    background-color: rgb(4, 4, 4);
+}
+
+.dropdown a:hover {
+    background-color: rgb(5, 5, 5);
+}
+
+#top {
+
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+ul li {
+    padding:20px;
 }
 
 
@@ -25,28 +126,7 @@ a {
   
 }
 
-b {
-    text-align: center;
-    .navbar ul{
-        list-style-type: none;
-        padding: 0px;
-        margin: 0px;
-        overflow: hidden;
-    }
-    font-family: Arial, Helvetica;
-    color: white;
-    
-    .navbar a{
-        text-decoration: none;
-        padding: 15px;
-        display: block;
-        text-align: center;
-    }
-    
-    .navbar li{
-        display:inline-block
-    }
-    }
+
 
 .bg-modal{
     
@@ -325,20 +405,19 @@ position: relative;
 
 
 
-.rosterheader {
-    width: 20%;
-}
+
 
 .artistheader {
-    width:20%
+    width:275px;
+
 }
 
 .teamheader {
-    width:20%
+    width:275px;
 }
 
 .handwritten {
-    width: 10%;
+    width: 100px;
 }
 
 .clef{
@@ -364,3 +443,4 @@ justify-content: center;
 margin-left: auto;
 margin-right: auto; 
 }
+
