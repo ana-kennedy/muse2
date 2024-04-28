@@ -253,7 +253,7 @@ border:1px solid rgb(52, 52, 52);
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
+    width: 250px;
 }
 
 .bg-modal{
@@ -266,7 +266,7 @@ border:1px solid rgb(52, 52, 52);
     display: flex;
     justify-content: center;
     align-items: center;
-left: 40px;
+    left:10px;
     display: none;
 
 }
@@ -304,7 +304,7 @@ top: -200px;
     display: flex;
     justify-content: center;
     align-items: center;
-left: 40px;
+    left:10px;
     display: none;
 
 }
@@ -360,3 +360,4 @@ top: -200px;
     margin-right: auto;
     justify-content: center;
 }
+

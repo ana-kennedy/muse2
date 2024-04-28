@@ -74,3 +74,11 @@ document.querySelector('.close8').addEventListener('click' , function(){
 document.querySelector('.bg-modal8').style.display = 'none' ;
 });
 
+document.getElementById('button9').addEventListener('click' , function() {
+    document.querySelector('.bg-modal9').style.display = 'flex';
+});
+
+
+document.querySelector('.close9').addEventListener('click' , function(){
+document.querySelector('.bg-modal9').style.display = 'none' ;
+});
