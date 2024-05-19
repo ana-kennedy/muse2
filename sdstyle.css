@@ -1,0 +1,83 @@
+
+
+body {
+    margin:0;
+    background-color: black;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.makeagif.com%2Fmedia%2F10-20-2015%2Fca_lQB.gif&f=1&nofb=1&ipt=adbd1c87edce4f40a6d32f33bb7e00958f9a2507ae2cfc6a812034d4fc864b71&ipo=images);
+
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.sdtext {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.helm {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 1px;
+    border-style: dotted;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.interact1 {
+    border: 2px;
+    border-style: dotted;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    border-radius:5px;
+}
+
+.interact2 {
+    border: 2px;
+    border-style: dotted;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    border-radius:5px;
+}
+
+.interact3 {
+    border: 2px;
+    border-style: dotted;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    border-radius:5px;
+
+}
+
+.interact {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.subtitle {
+    width: 175px;
+}

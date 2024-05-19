@@ -1,0 +1,23 @@
+body {
+    margin:0;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+
+}
+
+.lyric {
+    width: 500px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
